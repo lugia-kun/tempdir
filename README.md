@@ -1,4 +1,4 @@
-# tempdir.cr
+# tempdir
 
 Creates a temporary directory.
 
@@ -8,8 +8,8 @@ Creates a temporary directory.
 
    ```yaml
    dependencies:
-     tempdir.cr:
-       github: lugia-kun/tempdir.cr
+     tempdir:
+       github: lugia-kun/tempdir
    ```
 
 2. Run `shards install`
