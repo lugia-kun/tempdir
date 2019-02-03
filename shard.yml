@@ -1,5 +1,5 @@
-name: tempdir.cr
-version: 0.1.0
+name: tempdir
+version: 0.2.0
 
 authors:
   - Hajime Yoshimori <lugia.kun@gmail.com>
