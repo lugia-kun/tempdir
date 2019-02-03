@@ -1,0 +1,9 @@
+name: tempdir.cr
+version: 0.1.0
+
+authors:
+  - Hajime Yoshimori <lugia.kun@gmail.com>
+
+crystal: 0.27.1
+
+license: MIT
