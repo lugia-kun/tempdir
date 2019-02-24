@@ -5,12 +5,11 @@ Creates a temporary directory.
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
-
-   ```yaml
-   dependencies:
-     tempdir:
-       github: lugia-kun/tempdir
-   ```
+```yaml
+dependencies:
+  tempdir:
+    github: lugia-kun/tempdir
+```
 
 2. Run `shards install`
 
@@ -26,8 +25,9 @@ require "tempdir"
 dir = Dir.mktmpdir(*args)
 ```
 
-Creates a temporary directory. Arguments are not checked by here, this
-methods arguments to `File.tmpname` as-is. See `File.tempname`.
+Creates a temporary directory. Given arguments are not checked by
+here, this method passes them to `File.tmpname` as-is. See
+`File.tempname`.
 
 The returning object is `Tempdir`. It removes all entries when
 `#close`-d.
