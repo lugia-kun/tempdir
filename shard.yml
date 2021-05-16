@@ -4,6 +4,6 @@ version: 1.0.0
 authors:
   - Hajime Yoshimori <lugia.kun@gmail.com>
 
-crystal: 0.27.1
+crystal: 1.0.0
 
 license: MIT
