@@ -2,7 +2,7 @@ require "file_utils"
 
 # Creates a temporary directory.
 class Tempdir < Dir
-  VERSION = "0.1.0"
+  VERSION = "1.0.1"
 
   # Creates a new temporary directory.
   #
